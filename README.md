@@ -1,18 +1,8 @@
 <h1 align="center">
-  Sk8shop
+  React Native E-Commerce Project
 </h1>
 
-## Table of contents:
-
-- [About the project](#about-the-project)
-- [Technologies](#technologies)
-- [Prerequisites](#prerequisites)
-- [Getting started](#getting-started)
-- [File structure](#file-structure)
-- [License](#license)
-- [Contact](#contact)
-
-## About the project:
+## Demo:
 
 <div>
   <img src="assets/images/image0.jpg" width="250" height="500"/>
@@ -25,11 +15,11 @@
   <img src="assets/images/image7.gif" width="250" height="500"/>
 </div>
 
-Project developed with React Native, with the purpose of simulating a skateshop.
+A sample skating shop built on top of React Native
 
 Objective:
-- It's supposed to show all products sorted alphabetically or by price (asc).
-- It's supposed to show product details.
+- Show all products sorted alphabetically or by price (asc).
+- Show product details.
 - Add and remove products from shopping cart.
 - Simulate a purchase, adding products to "my purchases" list.
 - Remove products from "my purchases" list.
@@ -62,53 +52,45 @@ Objective:
 :white_check_mark: @testing-library/react-hooks\
 :white_check_mark: @testing-library/react-native
 
-## Prerequisites
+## Test this project
 
-Before proceeding, it is ideal that you have the environment set up to create applications in React Native, for this you can follow the guide of the link below:
-
-[React Native's Environment (Android/iOS)](https://reactnative.dev/docs/environment-setup)
-
-## Getting started
-
-#### First you clone the project:
+#### clone
 
 ```bash
 $ git clone https://github.com/MRLSK8/SK8shop.git && cd SK8shop
 ```
 
-#### Then you run the following command to install packages:
+#### install packages
 
 ```bash
 $ yarn install
 ```
 
-#### Next, you start the project:
+#### start
 
 ```bash
 $ yarn start
 ```
 
-#### Finally you run it like so:
+#### run
 
 ```bash
 $ yarn android
 ```
 
-#### If you want to build it and generate an APK just do the following
+#### generate APK
 
 ```bash
 $ yarn android:build
 ```
 
-#### It will generate an APK on android/app/build/outputs/apk/release/app-release.apk, send it to your cellphone and install it.
-#### And that's it! you're ready to use.
+#### It will generate an APK on android/app/build/outputs/apk/release/app-release.apk, send it to cellphone and install it.
 
 ## Running Tests
-#### You just need to run this command:
 ```bash
   $ yarn test
 ```
-#### In order to check the tests coverage out, run this command instead:
+#### with coverage
 ```bash
   $ yarn test:coverage
 ```
@@ -202,16 +184,3 @@ The file structure are in the following way:
 ├── tsconfig.js
 ├── yarn.lock
 ```
-
-## License:
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-## Contact:
-
-[Facebook](https://www.facebook.com/profile.php?id=100004301021977 'My facebook')  |  [Instagram](https://www.instagram.com/mrlsk8/ 'My instagram')  |  [Linkedin](https://www.linkedin.com/in/mrlsk8/ 'My linkedin')
-
-<div align="center">
-  Made with :heart: by <strong>Marcelo Lima</strong> 😊
-</div>
